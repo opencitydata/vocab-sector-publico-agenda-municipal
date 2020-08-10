@@ -8,9 +8,9 @@
 <!-- SCHEMA.ORG METADATA -->
 <script type="application/ld+json">{"@context":"http://schema.org","@type":"TechArticle","url":"http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#","image":"http://vowl.visualdataweb.org/webvowl/#iri=http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#","name":"Vocabulario para la representación de los datos sobre los eventos de la agenda municipal y sus participantes", "headline":"Document describing the ontology http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#", "datePublished":"Thu May 09 09:59:07 UTC 2019", "license":"https://creativecommons.org/licenses/by/4.0", "author":[{"@type":"Person","name":"Edna Ruckhaus (Ontology Engineering Group - Universidad Politécnica de Madrid)"},{"@type":"Person","name":"Oscar Corcho (Ontology Engineering Group - Universidad Politécnica de Madrid, Localidata)"},{"@type":"Person","name":"Paola Espinoza Arias (Ontology Engineering Group - Universidad Politécnica de Madrid)"}], "contributor":[{"@type":"Person","name":"Honorio Enrique Crespo Díaz-Alejo - Ayuntamiento de Madrid"},{"@type":"Person","name":"María Carmen Ruiz Moreno - Ayuntamiento de Madrid"},{"@type":"Person","name":"María Jesús Fernández Ruiz  - Ayuntamiento de Zaragoza"},{"@type":"Person","name":"María Jesús Gallego San Miguel - Ayuntamiento de Madrid"},{"@type":"Person","name":"María del Mar Arribas de Andrés - Ayuntamiento de Madrid"},{"@type":"Person","name":"Red.es"},{"@type":"Person","name":"Servicio de Informática - Ayuntamiento de Santiago de Compostela"},{"@type":"Person","name":"Servicio de Innovación y Desarrollo Tecnológico - Ayuntamiento de A Coruña"},{"@type":"Person","name":"Víctor Morlán Plo - Ayuntamiento de Zaragoza"}]}</script>
 
-<script src="resources/jquery.js"></script> 
-<script src="resources/marked.min.js"></script> 
-    <script> 
+<script src="resources/jquery.js"></script>
+<script src="resources/marked.min.js"></script>
+    <script>
 function loadHash() {
   jQuery(".markdown").each(function(el){jQuery(this).after(marked(jQuery(this).text())).remove()});
 	var hash = location.hash;
@@ -40,20 +40,20 @@ function loadTOC(){
 		}
 	  });
 	  t+='</ul>';
-	  $("#toc").html(t); 
+	  $("#toc").html(t);
 }
  $.fn.ignore = function(sel){
         return this.clone().find(sel||">*").remove().end();
  };    $(function(){
-      $("#abstract").load("sections/abstract-es.html"); 
-      $("#introduction").load("sections/introduction-es.html"); 
-      $("#overview").load("sections/overview-es.html"); 
-      $("#description").load("sections/description-es.html"); 
-      $("#references").load("sections/references-es.html"); 
-      $("#crossref").load("sections/crossref-es.html", null, loadHash); 
+      $("#abstract").load("sections/abstract-es.html");
+      $("#introduction").load("sections/introduction-es.html");
+      $("#overview").load("sections/overview-es.html");
+      $("#description").load("sections/description-es.html");
+      $("#references").load("sections/references-es.html");
+      $("#crossref").load("sections/crossref-es.html", null, loadHash);
     });
-    </script> 
-  </head> 
+    </script>
+  </head>
 
 <body>
 <div class="container">
@@ -61,10 +61,17 @@ function loadTOC(){
 <div style="float:right">language <a href="index-en.html"><b>en</b></a> <a href="index-es.html"><b>es</b></a> </div>
 <h1>Vocabulario para la representación de los datos sobre los eventos de la agenda municipal y sus participantes</h1>
 
-
 <dl>
-<dt>Versi&oacute;n:</dt>
-<dd><a href="http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal">http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal/1.0.0</a></dd>
+<dt>This version:</dt>
+<dd><a href="http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal/">http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal/1.0.1</a></dd>
+<dl>
+<dt>Previous version:</dt>
+<dd><a href="http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal/1.0.0/">http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal/1.0.0</a></dd>
+<dl>
+<dt>Latest version:</dt>
+<dd><a href="http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal/">http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal/</a></dd>
+
+
 <dt>Autores:</dt>
 <dd>Edna Ruckhaus (Ontology Engineering Group - Universidad Politécnica de Madrid)</dd><dd>Oscar Corcho (Ontology Engineering Group - Universidad Politécnica de Madrid, Localidata)</dd><dd>Paola Espinoza Arias (Ontology Engineering Group - Universidad Politécnica de Madrid)</dd>
 
@@ -85,7 +92,7 @@ function loadTOC(){
      <div id="overview"></div>
      <div id="description"></div>
      <div id="crossref"></div>
-     
+
 <html>
 <div id="acknowledgements">
 <h2 id="ack" class="list">Agradecimientos <span class="backlink"> volver a <a href="#toc">&iacute;ndice</a></span></h2>
